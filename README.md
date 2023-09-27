@@ -1,4 +1,4 @@
-# voyage-project-tier1-recipe
+# voyage-project-tier2-recipe
 
 ## Table of Contents
 
@@ -58,7 +58,7 @@ implement to enhance this app, if time permits.
 
 - [ ] This is a purely frontend application. No backend is required. 
 - [ ] You may use any languages, tools, or libraries you prefer when designing and building this app. 
-- [ ] We've included a JSON file containing the raw data in the `/assets` directory in this repo. But, if you choose, you may use the [Recipe - Rapid API](https://tasty.p.rapidapi.com/recipes/list) instead.
+- [ ] You should leverage the [Recipe - Rapid API](https://tasty.p.rapidapi.com/recipes/list) as a recipe resource.
 - [ ] You may **_NOT_** use AI-base solution generators like GitHub CoPilot.
 - [ ] Useful links and resources:
     - [Example Recipe App](https://namka-food-api.netlify.app)
@@ -74,35 +74,39 @@ implement to enhance this app, if time permits.
 #### Functionality
 
 -   User can see a landing page containing at least the following components:
-    - [ ] A header component displaying a brief how-to-use.
-    - [ ] Search field allowing them input ingredient.
-    - [ ] A scrollable list of recipes containing the result of the search criteria.
+    - [ ] Header component displaying a welcome message.
+    - [ ] Search field that enables users to input ingredient(s).
+    - [ ] A component to explain the use of the application.
+    - [ ] A scrollable list of recipes displaying the results based on the search criteria.
     - [ ] A summary main recipe component: it should display recipe image, name and link to details.
-    - [ ] A summary detail recipe component: it should display recipe name, category, and instructions
+    - [ ] A summary detail recipe component: it should display recipe name, category, and instructions.
+    - [ ] Ensure mobile responsiveness for the application.
 
 - Search Component
-    - [ ] User will be able to input ingredient.
-    - [ ] Search on a press of the Enter key or clicking the 'Search' button/icon.
+    - [ ] Users can input one or multiple ingredient(s).
+    - [ ] Initiate the search by either pressing the Enter key or clicking the 'Search' button/icon.
+    - [ ] Display an error message when an unlisted item is entered.
 
 - Main Data Display Component
     - [ ] Display result for each recipe in the main component.
-    - [ ] If no search ingredient has been inputed, then stay on header component.
+    - [ ] Remain on the landing page if no search ingredient has been entered.
 
 - Summary Detail Component
     - [ ] Display the following information of the selected recipe:
         - Name
         - Category
-        - Instructions
+        - List of instruction
+        - List of nutrition
+    - [ ] Add a Link to the instruction video
     
 ### Extras (Not Required)
 
 -   Search Component
-    - [ ] Allow search criteria to be saved across sessions and reselected from a dropdown
-    - [ ] Display error message if an unlisted item is inputed.
+    - [ ] Enable the preservation of search criteria between sessions, allowing users to select them from a dropdown menu when needed.
 -   Detail Data Display Component
-    - [ ] Add a link to the instruction video
+    - [ ] List of ingredient
 -   Summary Metrics Component
-    - [ ] In addition to the information for the selected data, also display the nutritional data
+    - [ ] Incorporate pagination for organizing the collection of recipe search results.
 -   General
     - [ ] Support dark/light mode
     - [ ] Allow the user options for customizing the font and font size
