@@ -58,7 +58,7 @@ implement to enhance this app, if time permits.
 
 - [ ] This is a purely frontend application. No backend is required. 
 - [ ] You may use any languages, tools, or libraries you prefer when designing and building this app. 
-- [ ] We've included a JSON file containing the raw data in the `/assets` directory in this repo. But, if you choose, you may use the [Recipe - Rapid API](https://tasty.p.rapidapi.com/recipes/list) instead.
+- [ ] You should leverage the [Recipe - Rapid API](https://tasty.p.rapidapi.com/recipes/list) as a recipe resource.
 - [ ] You may **_NOT_** use AI-base solution generators like GitHub CoPilot.
 - [ ] Useful links and resources:
     - [Example Recipe App](https://namka-food-api.netlify.app)
@@ -79,7 +79,8 @@ implement to enhance this app, if time permits.
     - [ ] A component to explain the use of the application.
     - [ ] A scrollable list of recipes displaying the results based on the search criteria.
     - [ ] A summary main recipe component: it should display recipe image, name and link to details.
-    - [ ] A summary detail recipe component: it should display recipe name, category, and instructions
+    - [ ] A summary detail recipe component: it should display recipe name, category, and instructions.
+    - [ ] Ensure mobile responsiveness for the application.
 
 - Search Component
     - [ ] Users can input one or multiple ingredient(s).
@@ -109,7 +110,6 @@ implement to enhance this app, if time permits.
 -   General
     - [ ] Support dark/light mode
     - [ ] Allow the user options for customizing the font and font size
-    - [ ] Ensure mobile responsiveness for the application.
 
 ## Acknowledgements
 
