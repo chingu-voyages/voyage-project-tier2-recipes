@@ -36,7 +36,7 @@ This project is designed to be worked on by a team rather than an individual
 Chingu. This means you and your team will need to thoroughly read and
 understand the requirements and specifications below, **_and_** define and
 manage your project following the _Agile Methodology_ defined in the
-[Voyage Handbook](https://chingucohorts.notion.site/Voyage-Guide-1e528dcbf1d241c9a93b4627f6f1c809).
+[Voyage Handbook](https://github.com/chingu-voyages/Handbook/blob/main/docs/guides/voyage/voyage.md#voyage-guide).
 
 As you create this project make sure it meets all of the requirements, but once
 it reaches MVP, start implementing the optional features or get creative and
@@ -58,11 +58,11 @@ implement to enhance this app, if time permits.
 
 - [ ] This is a purely frontend application. No backend is required. 
 - [ ] You may use any languages, tools, or libraries you prefer when designing and building this app. 
-- [ ] You should leverage the [Recipe - Rapid API](https://tasty.p.rapidapi.com/recipes/list) as a recipe resource.
+- [ ] You should leverage the [Recipe - Rapid API](https://rapidapi.com/apidojo/api/tasty) as a recipe resource.
 - [ ] You may **_NOT_** use AI-base solution generators like GitHub CoPilot.
 - [ ] Useful links and resources:
     - [Example Recipe App](https://namka-food-api.netlify.app)
-    - [Recipe - Rapid API](https://tasty.p.rapidapi.com/recipes/list)
+    - [Recipe - Rapid API](https://rapidapi.com/apidojo/api/tasty)
 
 #### Styling
 
@@ -113,7 +113,7 @@ implement to enhance this app, if time permits.
 
 ## Acknowledgements
 
-Data is been pulled from [Tasty of Rapid API](https://tasty.p.rapidapi.com/recipes/list). 
+Data is been pulled from [Tasty of Rapid API](https://rapidapi.com/apidojo/api/tasty). 
 
 ## About Chingu
 
